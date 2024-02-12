@@ -1,0 +1,8 @@
+config { type: "table",
+         description: "This table is an example",
+         columns:{
+             user_name: "Name of the user",
+             user_id: "ID of the user"
+         } }
+
+select * from ${ref("test1")}

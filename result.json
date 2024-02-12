@@ -1,0 +1,23 @@
+[
+  {
+    "type": "table",
+    "description": "This table is an example",
+    "columns": {
+      "user_name": "Name of the user",
+      "user_id": "ID of the user"
+    },
+    "file": "definitions\\table.sqlx",
+    "dependencyTargets": [
+      {
+        "schema": "DATAFORM",
+        "name": "TEST1"
+      }
+    ],
+    "fromCache": true
+  },
+  {
+    "type": "view",
+    "file": "definitions\\test1.sqlx",
+    "fromCache": true
+  }
+]
